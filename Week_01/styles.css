@@ -72,3 +72,6 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
+  image {
+    max-width: 100%;
+  }
