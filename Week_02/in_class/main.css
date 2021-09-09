@@ -3,7 +3,7 @@ body {
     margin: 0px;
 }
 
-image{
+img{
     max-width: 100%;
 }
     
@@ -18,7 +18,6 @@ image{
 }
 
 nav ul.nav-links {
-    background-color: royalblue;
     padding: 20px;
     list-style: none;
     margin: 0px;
@@ -58,7 +57,7 @@ nav ul.nav-links {
     /*main*/
 
     main {
-        width: 768px;
+        width: 748px;
         margin: auto;
     }
 
