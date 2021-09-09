@@ -3,11 +3,10 @@ body {
     margin: 0px;
 }
 
-image {
+image{
     max-width: 100%;
 }
     
-
 /*header*/
 .nav-logo {
     width: 80px;
@@ -34,6 +33,11 @@ nav ul.nav-links {
     display: none;
 }
 
+/*main*/
+
+.body-copy {
+    padding: 10px;
+}
 
 @media (min-width: 768px) {
     .toggle-icon{
@@ -51,4 +55,15 @@ nav ul.nav-links {
 
     }
 
+    /*main*/
+
+    main {
+        width: 768px;
+        margin: auto;
+    }
+
+    .body-copy {
+        padding: 10px 0px;
+        columns: 3;
+    }
 }
