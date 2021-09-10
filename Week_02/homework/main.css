@@ -87,13 +87,24 @@ nav ul.nav-links {
     padding: 10px;
 }
 
-#hard-enamel-subhero-copy, #soft-enamel-subhero-copy{
+#hard-enamel-subhero-copy, #soft-enamel-subhero-copy, #die-enamel-subhero-copy{
     padding: 10px;
 }
 
 .patsystone{
     display: none;
 }
+
+.die-images{
+    width: 110px;
+    padding: 3px;
+    float: left;
+}
+
+#die{
+    display: none;
+}
+
 
 @media (min-width: 768px) {
     .toggle-icon{
@@ -145,10 +156,22 @@ nav ul.nav-links {
         float: left;
     }
 
+    #die{
+        display: block;
+        padding-bottom: 20px;
+    }
+
     #soft-enamel-subhero-copy{
         columns: none;
         float: right;
     }
+
+    .die-image{
+        width: 350px;
+        float: left;
+        padding: 5px;
+    }
+
 }
 
 @media (max-width: 376px) {
