@@ -11,12 +11,14 @@ h1{
     font-family: 'Lobster', cursive;
     font-size: 80px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 h2{
     font-family: 'Lobster', cursive;
     font-size: 40px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 a:visited, a:link, a:active{
@@ -85,8 +87,12 @@ nav ul.nav-links {
     padding: 10px;
 }
 
-#hard-enamel-subhero-copy{
+#hard-enamel-subhero-copy, #soft-enamel-subhero-copy{
     padding: 10px;
+}
+
+.patsystone{
+    display: none;
 }
 
 @media (min-width: 768px) {
@@ -128,7 +134,21 @@ nav ul.nav-links {
         columns: 3;
     }
 
-    
+    .patsystone{
+        display: block;
+        width: 340px;
+        float: right;
+    }
+
+    .edinamonsoon{
+        width: 400px;
+        float: left;
+    }
+
+    #soft-enamel-subhero-copy{
+        columns: none;
+        float: right;
+    }
 }
 
 @media (max-width: 376px) {
