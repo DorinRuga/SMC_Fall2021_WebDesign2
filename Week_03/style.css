@@ -1,0 +1,26 @@
+/*reset*/
+
+body {
+    margin: 0px;
+}
+img {
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*color*/
+
+
+/*navigation*/
+nav li{
+    padding: 5px 10px;
+}
+nav li a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
