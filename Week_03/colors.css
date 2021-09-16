@@ -1,0 +1,26 @@
+/*color*/
+.dark-green{
+    background-color: #3D6670;
+}
+.mid-green{
+    background-color: #79AFBD;
+}
+.light-green{
+    background-color: #BDF2FF;
+}
+.dark-brown{
+    background-color: #705031;
+}
+.light-brown{
+    background-color: #BD9979;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+
+a :hover{
+    background-color: white;
+}

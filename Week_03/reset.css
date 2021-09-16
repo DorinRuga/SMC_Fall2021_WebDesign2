@@ -1,0 +1,16 @@
+/*reset*/
+body{
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a :hover{
+    color: white;
+}
