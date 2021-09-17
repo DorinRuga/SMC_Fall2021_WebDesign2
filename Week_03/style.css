@@ -4,8 +4,15 @@
 
 /*NAVIGATION*/
 .logo{
-    width: 200px;
-    
+    width: 200px;   
+}
+
+.col{
+    min-width: 300px;
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+
 }
 
 nav{
@@ -64,28 +71,21 @@ img{
     justify-content: center;
 }
 
-.grid > * {
-    flex-grow: 1;
-}
-
-.grid > :nth-child(4){
-    width: 60%;
-}
-
-
-
 @media (min-width: 768px){
-    
-    .logo{
-        display: flex;
-        width: 200px;
-        margin: auto;
-        justify-content: center;
-    }
+  
+   .col{
+       min-width: 200px;
+       min-height: 150px;
+       flex-grow: 1;
+   }
+   
+   .grid > *:nth-child(4){
+       flex: 1 1 60%;
+   }
 
-    img{
-        width: 260px;
-    }
+   .grid > *:nth-child(5){
+       flex: 1 1 26%;
+   }
 
     nav{
         flex-direction: row;
@@ -94,12 +94,11 @@ img{
     
     nav ul{
         flex-direction: row;
-        flex-wrap: wrap;
         align-items: center;
     }
     nav li{
         border-bottom:  #79AFBD;
-        padding: 20px;
+        padding: 10px;
     }
     
     nav ul li{
