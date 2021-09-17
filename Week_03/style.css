@@ -12,7 +12,6 @@
     min-height: 200px;
     background-position: center;
     background-size: cover;
-
 }
 
 nav{
@@ -46,9 +45,20 @@ nav li a{
 
 h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     color:  #705031;
 }
+
+.text{
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 5px;  
+    text-align: right;
+    margin-top: 150px;
+    background: linear-gradient(90deg, rgba(2,0,36,0.013042717086834688) 0%, rgba(121,175,189,1) 47%);
+}
+
 
 img{
     margin: 0px;
@@ -69,6 +79,44 @@ img{
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+}
+
+/*footer*/
+
+
+
+.jobh1{
+    background-color: #79AFBD;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.jobcopy{
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    font-weight: normal;
+    margin-top: none;
+}
+
+.jobimage{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.jobbutton {
+	background-color:#BD9979;
+	border-radius:28px;
+	border:1px solid #705031;
+	display:inline-block;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    
 }
 
 @media (min-width: 768px){
@@ -116,4 +164,16 @@ img{
     nav ul li:nth-child(5){
         order: 3;
     }
+
+    /*footer*/
+
+    .jobimage{
+        width: 50%;
+        float: left;
+    }
+    
+    .jobbutton{
+        float:right;
+    }
+    
 }
