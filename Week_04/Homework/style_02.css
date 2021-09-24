@@ -1,0 +1,11 @@
+@import url("reset.css");
+@import url("colors.css");
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+}
+
+.grid-item{
+    min-height: 200px;
+}

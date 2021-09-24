@@ -1,0 +1,40 @@
+@import url("reset.css");
+@import url("colors.css");
+
+body {
+    margin: 40px;
+  }
+  
+  .sidebar {
+      grid-area: sidebar;
+    }
+  
+    .content {
+      grid-area: content;
+    }
+  
+    .header {
+      grid-area: header;
+    }
+  
+    .footer {
+      grid-area: footer;
+    }
+  
+  
+    .grid-container {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas:
+      "....... header header"
+      "sidebar content content"
+      "footer  footer  footer";
+    }
+  
+  .box {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+  }
+
