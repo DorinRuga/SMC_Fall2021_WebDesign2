@@ -1,27 +1,53 @@
 @import url("reset.css");
 @import url("colors.css");
 
+/* main   font-family: 'Jura', sans-serif; 
+font-family: 'Open Sans', sans-serif; */
+
 body {
     margin: 40px;
   }
+
+  .box {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 7px;
+  }
+h1, h2 {
+    font-family: 'Jura', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+h1{
+    color: white;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+  .image-gallery {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+  }
+
+  .button {
+	border-radius:29px;
+	border:1px solid #4e6096;
+	color:#ffffff;
+	font-family: 'Open Sans', sans-serif;
+	padding:6px 12px;
+	text-decoration:none;
+    float: right;
+}
+
   
-  .sidebar {
-      grid-area: sidebar;
-    }
-  
-    .content {
-      grid-area: content;
-    }
-  
-    .header {
-      grid-area: header;
-    }
-  
-    .footer {
-      grid-area: footer;
-    }
-  
-  
+  /* grid 1 */
+
     .grid-container {
       display: grid;
       grid-gap: 10px;
@@ -31,10 +57,93 @@ body {
       "sidebar content content"
       "footer  footer  footer";
     }
+
+    .sidebar {
+        grid-area: sidebar;
+      }
+    
+      .content {
+        grid-area: content;
+      }
+    
+      .header {
+        grid-area: header;
+      }
+    
+      .footer {
+        grid-area: footer;
+      }
+
+/* grid 2 */
+
+    .grid-container2 {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+    }
+
+    .a{
+        grid-column: 1 / span 2;
+    }
+
+    .b {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+    }
+
+    .c {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .d {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+/* grid 3 */
+
+    .grid-container3 {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+     "header2 header2 header2"
+     "sidebar3 content2 content2"
+     "sidebar4 sidebar4 sidebar4"
+     "footer2 footer2 footer2";
+    }
+
+    .header2 {
+        grid-area: header2;
+    }
+
+    .sidebar3 {
+        grid-area: sidebar3;
+    }
+
+    .sidebar4 {
+        grid-area: sidebar4;
+    }
+
+    .content2 {
+        grid-area: content2;
+    }
+
+    .footer2 {
+        grid-area: footer2;
+    }
+
+    @media (min-width: 768px){
+
+        .box {
+            font-size: 20px;
+        }
+
+        h1, h2 {
+            font-size: 25px;
+        }
+    }
   
-  .box {
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 150%;
-  }
+ 
 
