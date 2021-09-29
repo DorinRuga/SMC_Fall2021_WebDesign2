@@ -1,0 +1,45 @@
+@import url('reset.css');
+@import url('colors.css');
+
+.grid{
+    display: grid;
+    grid-template-columns: 100%; /*auto*/
+    grid-template-rows: repeat(6, 200px); /*1fr*/
+    gap: 12px;
+}
+
+
+/*TABLETS - med*/
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 200px);
+    }
+
+    .grid-item:first-child {
+        grid-column: 1 / span 4;
+    }
+
+    .grid-item:nth-child(2) {
+        grid-column: 1 / span 2;
+    }
+    
+    .grid-item:nth-child(3) {
+        grid-column: 3 / span 2;
+    }
+    
+    .grid-item:nth-child(4) {
+        display: none;
+    }
+
+    .grid-item:nth-child(5) {
+        grid-column: 1 / span 3;
+    }
+
+    .grid-item:nth-child(6) {
+        grid-column: 4 / span 1;
+    }
+}
+
+/*DESKTOPS - lg*/
+
