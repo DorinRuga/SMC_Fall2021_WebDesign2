@@ -1,0 +1,123 @@
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 100%; /*auto*/
+    grid-template-rows: repeat(6, 200px); /*1fr*/
+    gap: 12px;
+}
+
+
+/*TABLETS - med*/
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        max-width: 786px;
+        margin: auto;
+    }
+
+
+    .md-grid-contained {
+        max-width: 786px;
+        margin: auto;
+    }
+    .md-grid-fluid{
+        max-width: 100%;
+    }
+
+
+    .md-col-span-1{
+        grid-column-end: span 1;
+    }
+    .md-col-span-2{
+        grid-column-end: span 2;
+    }
+    .md-col-span-3{
+        grid-column-end: span 3;
+    }
+    .md-col-span-4{
+        grid-column-end: span 4;
+    }
+    .md-col-span-5{
+        grid-column-end: span 5;
+    }
+    .md-col-span-6{
+        grid-column-end: span 6;
+    }
+
+
+    .md-dis-none{
+        display: none;
+    }
+    .md-dis.init{
+        display: initial;
+    }
+
+}
+
+/*DESKTOPS - lg*/
+
+@media (min-width: 960px) {
+    
+    .grid {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        max-width: 960px;
+    }
+
+
+    .lg-grid-contained {
+        max-width: 960px;
+        margin: auto;
+    }
+    .lg-grid-fluid {
+        max-width: 100%;
+    }
+
+
+    .lg-col-span-1{
+        grid-column-end: span 1;
+    }
+    .lg-col-span-2{
+        grid-column-end: span 2;
+    }
+    .lg-col-span-3{
+        grid-column-end: span 3;
+    }
+    .lg-col-span-4{
+        grid-column-end: span 4;
+    }
+    .lg-col-span-5{
+        grid-column-end: span 5;
+    }
+    .lg-col-span-6{
+        grid-column-end: span 6;
+    }
+    .lg-col-span-7{
+        grid-column-end: span 7;
+    }
+    .lg-col-span-8{
+        grid-column-end: span 8;
+    }
+    .lg-col-span-9{
+        grid-column-end: span 9;
+    }
+    .lg-col-span-10{
+        grid-column-end: span 10;
+    }
+    .lg-col-span-11{
+        grid-column-end: span 11;
+    }
+    .lg-col-span-12{
+        grid-column-end: span 12;
+    }
+
+
+    .lg-dis-none{
+        display: none;
+    }
+    .lg-dis-init{
+        display: initial;
+    }
+}
