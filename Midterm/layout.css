@@ -7,6 +7,37 @@
     gap: 12px;
 }
 
+.logo{
+    width: 100px;   
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul > *:nth-child(1){
+    background-color: white;
+}
+
+nav li{
+    padding: 10px;
+    border-bottom: 1px solid  #3D6670;
+}
+
+nav li a{
+    text-transform: uppercase;
+    color: #705031;
+    text-decoration: none;
+
+}
+
 .dis-none{
     display: none;
 }
@@ -28,6 +59,27 @@
     }
     .md-grid-fluid{
         max-width: 100%;
+    }
+
+
+    .col{
+        min-width: 200px;
+        min-height: 150px;
+        flex-grow: 1;
+    }
+
+    nav{
+        justify-content: space-evenly;
+    }
+    
+    nav ul{
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    nav li{
+        border-bottom:  #000000;
+        padding: 10px;
     }
 
 
