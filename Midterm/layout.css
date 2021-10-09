@@ -7,6 +7,11 @@
     gap: 12px;
 }
 
+.grid-item{
+    background-position: center;
+    background-size: cover;
+}
+
 .logo{
     width: 100px;   
 }
@@ -28,12 +33,12 @@ nav ul > *:nth-child(1){
 
 nav li{
     padding: 10px;
-    border-bottom: 1px solid  #3D6670;
+    border-bottom: 1px solid
 }
 
 nav li a{
     text-transform: uppercase;
-    color: #705031;
+    
     text-decoration: none;
 
 }
@@ -42,7 +47,11 @@ nav li a{
     display: none;
 }
 
-
+.footer{
+    width: auto;
+    height: 600px;
+    border-color: #3f0d12;
+}
 /*TABLETS - med*/
 @media (min-width: 768px) {
     .grid {
