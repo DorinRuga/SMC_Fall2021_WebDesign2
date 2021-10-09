@@ -39,36 +39,36 @@ a{
 /*primary 2*/
 
 .bg-primary2{
-    background-color: #CC2936;
+    background-color: #005c69;
 }
 .bg-secondary2{
-    background-color: #143642;
+    background-color: #e3b23c;
 }
 .bg-dark2{
-    background-color: #630345;
+    background-color: #1b1b1a;
 }
 .bg-light2{
-    background-color: #CFD2B2;
+    background-color: #edebd7;
 }
 .bg-accent2{
-    background-color: #8A95A5;
+    background-color: #9e7c4f;
 }
 
 
 .primary2{
-    color: #CC2936;
+    color: #005c69;
 }
 .secondary2{
-    color: #143642;
+    color: #e3b23c;
 }
 .dark2{
-    color: #630345;
+    color: #1b1b1a;
 }
 .light2{
-    color: #CFD2B2;
+    color: #edebd7;
 }
 .accent2{
-    color: #8A95A5;
+    color: #9e7c4f;
 }
 
 /*primary 3*/
