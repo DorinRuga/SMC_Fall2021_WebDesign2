@@ -14,3 +14,7 @@ grid-column-start: 1;
     height: 200px;
     width: auto;
 }
+
+.align-center{
+  align-items: center;
+}

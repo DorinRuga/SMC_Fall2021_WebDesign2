@@ -74,34 +74,34 @@ a{
 /*primary 3*/
 
 .bg-primary3{
-    background-color: #CC2936;
+    background-color: #51344D;
 }
 .bg-secondary3{
-    background-color: #143642;
+    background-color: #AF9B46;
 }
 .bg-dark3{
-    background-color: #630345;
+    background-color: #002400;
 }
 .bg-light3{
-    background-color: #CFD2B2;
+    background-color: #FBFBF2;
 }
 .bg-accent3{
-    background-color: #8A95A5;
+    background-color: #114B5F;
 }
 
 
 .primary3{
-    color: #CC2936;
+    color: #51344D;
 }
 .secondary3{
-    color: #143642;
+    color: #AF9B46;
 }
 .dark3{
-    color: #630345;
+    color: #002400;
 }
 .light3{
-    color: #CFD2B2;
+    color: #FBFBF2;
 }
 .accent3{
-    color: #8A95A5;
+    color: #114B5F;
 }
