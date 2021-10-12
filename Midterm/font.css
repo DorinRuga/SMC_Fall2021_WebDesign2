@@ -15,7 +15,7 @@
 .p2{
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
-    padding: 10px;
+    padding: 10pxh1;
    
 }
 
@@ -27,6 +27,12 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     padding: 10px;
+}
+.h3-3{
+    font-family: 'Pirata One', cursive;
+    font-size: 40px;
+    padding: none;
+    border: none;
 }
 
 nav{
