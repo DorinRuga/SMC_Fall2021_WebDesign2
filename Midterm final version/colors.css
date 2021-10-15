@@ -1,0 +1,43 @@
+/*color*/
+
+.bg-primary{
+    background-color: #771827;
+}
+.bg-secondary{
+    background-color: #707070;
+}
+.bg-dark{
+    background-color: #3f0d12;
+}
+.bg-light{
+    background-color: #f1e8cc;
+}
+.bg-accent{
+    background-color: #7c3943;
+}
+.bg-accent2{
+    background-color: #9e7c4f;
+}
+
+a{
+    color: #f1e8cc;
+}
+
+.primary{
+    color: #a71d31;
+}
+.secondary{
+    color: #707070;
+}
+.dark{
+    color: #3f0d12;
+}
+.light{
+    color: #dce0d9;
+}
+.accent{
+    color: #7c3943;
+}
+.accent2{
+    color: #9e7c4f;
+}

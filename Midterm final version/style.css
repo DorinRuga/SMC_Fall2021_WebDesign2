@@ -1,0 +1,19 @@
+@import url('reset.css');
+@import url('colors.css');
+@import url('layout.css');
+@import url('font.css');
+
+/*
+grid-column-start: 1;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  */
+
+.list{
+    height: 200px;
+    width: auto;
+}
+
+
+
