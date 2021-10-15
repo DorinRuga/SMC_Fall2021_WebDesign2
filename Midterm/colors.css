@@ -15,6 +15,9 @@
 .bg-accent{
     background-color: #7c3943;
 }
+.bg-accent2{
+    background-color: #9e7c4f;
+}
 
 a{
     color: #f1e8cc;
@@ -36,7 +39,7 @@ a{
     color: #7c3943;
 }
 
-/*primary 2*/
+/*primary 2
 
 .bg-primary2{
     background-color: #005c69;
@@ -49,9 +52,6 @@ a{
 }
 .bg-light2{
     background-color: #edebd7;
-}
-.bg-accent2{
-    background-color: #9e7c4f;
 }
 
 
@@ -70,8 +70,8 @@ a{
 .accent2{
     color: #9e7c4f;
 }
-
-/*primary 3*/
+*/
+/*primary 3
 
 .bg-primary3{
     background-color: #51344D;
@@ -104,4 +104,4 @@ a{
 }
 .accent3{
     color: #114B5F;
-}
+}*/
