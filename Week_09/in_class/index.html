@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intro to JavaScript</title> 
+        
+        <style>
+            #mainH {
+                background-color: rgb(107, 107, 202);
+            }
+            #tealPane {
+                background-color: teal;
+                height: 300px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1 id="mainH">Intro to JavaScript</h1>
+       
+        <section>
+            
+            <button role="button" id="button1">Click Me!</button>
+            <div id="tealPane"></div>
+
+        </section>
+        <script>
+            console.info("This is an example of a JavaScript command.");
+            let answer = prompt("What's your name?", "")
+
+            let mainHeader = document.getElementById("mainH");
+            let b1 = document.getElementById("button1")
+            let pane = document.getElementById("tealPane")
+
+            let modifyPane = function(){
+                 pane.style.backgroundColor = "rgb (10, 100, 180)";
+                let notification = document.createElement("H5");
+                notification.innerText = "This has been modified";
+                pane.appendChild(notification);
+            }
+        
+            console.log( document.getElementById("mainH") );
+            console.log(answer)
+
+            mainHeader.style.backgroundColor = "chartreuse";
+           mainHeader.innerText = mainHeader.innerText + "! Welcome, " + answer;
+            
+           b1.addEventListener("click", modifyPane)
+
+        </script>
+        
+    </body>
+</html>
