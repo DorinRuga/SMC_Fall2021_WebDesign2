@@ -7,16 +7,34 @@
     <title>Homework - Buttons</title>
 </head>
 <body>
+    
+    <h1 id="mainH">Homework - 2 buttons</h1>
+
     <section>
+        <button role="button" id="button1">Red</button>
 
-        <button role="button" id="button1">Click Me!</button>
-
-        <button role="button" id="button2">Click Me!</button>
+        <button role="button" id="button2">Grow</button>
 
     </section>
     
     <Script> 
     
+    let changeRed = function(){
+        mainHeader.style.backgroundColor = "red";
+    }
+
+    let grow = function(){
+        mainHeader.style.fontSize = "50px";
+    }
+
+    let b1 = document.getElementById("button1");
+    let b2 = document.getElementById("button2");
+    let mainHeader = document.getElementById("mainH");
+    
+    b1.addEventListener("click", changeRed);
+    b2.addEventListener("click", grow);
+
+
     
     </Script>
 </body>
