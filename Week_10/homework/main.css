@@ -1,0 +1,49 @@
+#imageButton{
+    width: 8%;
+    margin: 50px;
+}
+
+#menubutton{
+  margin-top: 20px;
+}
+
+.presentationBlock{
+    height: 450px;
+    margin-top: 50px;
+    background-color: cadetblue;
+
+}
+
+.container{
+    clear:both;
+    overflow:auto;
+}
+  
+  nav{
+    float:right;
+}
+  
+  .logo img{
+    float:left;
+    width: 40px;
+}
+  
+  ul li{
+    display: inline-block; 
+    padding:10px;
+    font-size:20px; 
+    font-family:raleway;
+}
+
+.images{
+  overflow: hidden;
+  text-align: center;
+}
+
+.images img{
+  width: 170px;
+  height: 200px;
+  margin: 15px;
+  cursor: pointer;
+  transition: .2s;
+}
