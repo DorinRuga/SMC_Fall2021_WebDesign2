@@ -1,4 +1,3 @@
-
 let carouselImages = ["quokkas1.jpg", "quokkas2.jpg", "quokkas3.jpg"]; 
 let currentIndex = 2;
 let carouselIMG = document.getElementById ("carouselIMG");
@@ -28,12 +27,12 @@ let changeslide = function(){
     }
 }
     
-window.addEventlistener ("load", function(){
-   // triggered once after 5 sec
-    setTimeout (function(){
-         prompt("SUBSCRIBE TO OUR NEWSLETTER!!!", 
-         "my@email.com");
-   }, 5000);
+window.addEventListener("load", function(){
+    //trigger once after 5 sec
+    setTimeout(function(){
+        prompt("SUBSCRIBE TO OUR NEWSLETTER!!", "my@email.com");
+    }, 5000);
+
     //triggered every 5 sec
-    setInterval (changeslide, 5000);
+    setInterval(changeslide, 5000);
 })
