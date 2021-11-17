@@ -1,5 +1,5 @@
 //for the carousel:
-let carouselImages = ["Pepper1.jpg", "Pepper2.jpg", "Pepper3.jpg"]; 
+let carouselImages = ["", "", ""]; 
 let pepperImages = ["Pepper1.jpg", "Pepper2.jpg", "Pepper3.jpg"];
 let tomatoImages = ["Tomato1.jpg", "Tomato2.jpg", "Tomato3.jpg"];
 let kaleImages = ["Kale1.jpg", "Kale2.jpg", "Kale3.jpg"];
@@ -54,10 +54,38 @@ let updateCategory = function(){
     }
 }
    
+let carouselUpdate =function(){
+    let currentValue = categorySelect.value;
+    console.log(currentValue);
+    if (currentValue === 'Pepper'){
+        carouselImages = pepperImages;
+    }
+
+    else if (currentValue === 'Tomato'){
+        carouselImages = tomatoImages;
+    }
+
+    else if (currentValue === 'Kale'){
+        carouselImages = kaleImages;
+    }
+
+    else if (currentValue === 'Spinich'){
+        carouselImages = spinichImages;
+    }
+
+    else if (currentValue === 'Carrot'){
+        carouselImages = carrotImages;
+    }
+
+    else if (currentValue === 'Squash'){
+        carouselImages = squashImages;
+    }
+}
 
 window.addEventListener("load", function(){
     //triggered every 5 sec
     setInterval(changeslide, 2000);
 });
 
-groupSelect.addEventListener("change", updateCategory)
+groupSelect.addEventListener("change", updateCategory);
+categorySelect.addEventListener("change", carouselUpdate);
