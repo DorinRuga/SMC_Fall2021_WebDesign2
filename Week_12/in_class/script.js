@@ -1,8 +1,9 @@
 let cocktailButton = document.getElementById('fetchCocktail')
 let cocktailDisplay = document.getElementById ("displayCocktail")
 
-let picOTD = document.getElementById('fetchPicOfTheDay')
+let picOTD = document.getElementById('start')
 let roverImageDisplay = document.getElementById('displayRoverImage')
+
 
 let fetchRandomCocktail = function (){
     let randCocktailURL="https://www.thecocktaildb.com/api/json/v1/1/random.php";
@@ -40,8 +41,9 @@ let fetchRandomCocktail = function (){
     }
 
     let fetchPicOfTheDay = function(){
+        console.log(picOTD.value)
         let baseURL = 'https://api.nasa.gov/planetary/apod?date=';
-        let dateURL = '1995-07-17';
+        let dateURL = picOTD.value;
         let apiURL = 'DEMO_KEY';
         let imgURL = baseURL + dateURL + '&api_key=' + apiURL;
 
@@ -50,18 +52,18 @@ let fetchRandomCocktail = function (){
                 return result.json();
             }).
             then(function(data){
-                console.log(data.photos[0]);
+                console.log(data);
 
                 while(roverImageDisplay.firstChild){
                     roverImageDisplay.removeChild(roverImageDisplay.firstChild);
                 }
 
                 let img = document.createElement('img');
-                img.src = hdurl;
+                img.src = data.url;
                 img.alt = "Picture of the Day";
-                roverImageDisplay.appendChold(img);
+                roverImageDisplay.appendChild(img);
             })
     }
 
 cocktailButton.addEventListener('click',fetchRandomCocktail);
-picOTD.addEventListener('click', fetchPicOfTheDay);
+picOTD.addEventListener('change', fetchPicOfTheDay);
