@@ -1,0 +1,41 @@
+
+.box1{
+    width: auto;
+    height: 60px;
+    background-color: red;
+}
+
+.box2{
+    width: auto;
+    height: 300px;
+    background-color: blue;
+}
+
+.box3{
+    width: auto;
+    height: 200px;
+    background-color: burlywood;
+}
+
+.box4{
+    width: auto;
+    height: 200px;
+    background-color: rgb(158, 228, 207);
+}
+
+.box5{
+    width: auto;
+    height: 200px;
+    background-color: blue;
+}
+
+.box6{
+    width: auto;
+    height: 200px;
+    background-color: rgb(243, 106, 225);
+}
+.footer{
+    width: auto;
+    height: 200px;
+    background-color: green;
+}

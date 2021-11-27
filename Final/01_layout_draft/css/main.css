@@ -1,0 +1,16 @@
+@import url('reset.css');
+@import url('colors.css');
+@import url('grid.css');
+@import url('utils.css');
+@import url("style.css");
+
+
+.gallery img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .gallery img {
+        width: initial;
+    }
+}
