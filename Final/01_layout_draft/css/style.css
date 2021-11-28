@@ -1,36 +1,51 @@
 
-.box1{
-    width: auto;
+.nav{
     height: 60px;
     background-color: red;
 }
 
-.box2{
-    width: auto;
+.hero{
     height: 300px;
-    background-color: blue;
+    background-color: rgb(92, 92, 240);
 }
 
-.box3{
-    width: auto;
+.video{
     height: 200px;
     background-color: burlywood;
 }
 
-.box4{
-    width: auto;
+.contact-video{
+    height: 200px;
+    background-color: burlywood;
+}
+
+.paragraph1{
     height: 200px;
     background-color: rgb(158, 228, 207);
 }
 
-.box5{
-    width: auto;
+.test_p1{
+    height: 200px;
+    background-color: rgb(158, 228, 207);
+    width: 100%;
+}
+
+.paragraph2{
+    height: 200px;
+    background-color: rgb(158, 228, 207);
+}
+
+.test_p2 {
+    height: 200px;
+    background-color: rgb(158, 228, 207);
+}
+
+.image{
     height: 200px;
     background-color: blue;
 }
 
-.box6{
-    width: auto;
+.event{
     height: 200px;
     background-color: rgb(243, 106, 225);
 }

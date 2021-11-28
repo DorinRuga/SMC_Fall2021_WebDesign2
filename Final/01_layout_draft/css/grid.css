@@ -1,12 +1,69 @@
-.flex-container {
+/* Navigation Bar */
+
+.nav-logo {
+    width: 40px;
+}
+
+li{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+nav ul.nav-links {
+    padding: 20px;
+    list-style: none;
+    margin: 0px;
+}
+
+/* main containers */
+
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.blog-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.contact-container{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-.flex-container > * {
-    width: 100%;
+.donate-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
+
+.home-container > * {
+    width: 100%;
+    margin: 10px;
+  }
+
+.contact-container > * {
+  width: 100%;
+  margin: 10px;
+}
+
+.blog-container > * {
+  width: 100%;
+  margin: 10px;
+}
+
+.donate-container > * {
+    width: 100%;
+    margin: 10px;
+  }
 
 .inside-wrapper {
     margin: 0px 10px;
@@ -14,6 +71,57 @@
 
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px) {
+    
+    .paragraph2{
+       width: 44%;
+    }
+
+    .image{
+        width: 50%;
+    }
+    
+    .blog-container > * {
+        width: 80%;
+        margin: 10px;
+    }
+
+    .contact-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    
+    .contact-container > * {
+        width: 47%;
+        margin: 10px;
+    }
+    
+    .contact-video{
+        width: 96.5%;
+        height: 200px;
+        background-color: burlywood;
+    }
+
+    .contact-p1{
+        width: 96.5%;
+        height: 200px;
+        background-color: rgb(158, 228, 207);
+    }
+
+    .left{
+        align-self: flex-start;
+    }
+    
+    .right{
+        align-self: flex-end;
+    }
+
+    .test_p2 {
+        height: 200px;
+        background-color: rgb(158, 228, 207);
+        width: 47.5%;
+    }
+    
     .w-md-25 {
         width: 25%;
     }
@@ -37,6 +145,7 @@
     .flex-container > [class^=w-md]:last-child > .segment {
         margin-right: 0px;
     }
+
 }
 
 /* LARGE SCREENS (Desktop and larger) */
