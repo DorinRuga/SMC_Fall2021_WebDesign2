@@ -10,7 +10,6 @@
 }
 
 .video{
-    height: 200px;
     background-color: burlywood;
 }
 
@@ -20,7 +19,6 @@
 }
 
 .paragraph1{
-    height: 200px;
     background-color: rgb(158, 228, 207);
 }
 
@@ -31,7 +29,6 @@
 }
 
 .paragraph2{
-    height: 200px;
     background-color: rgb(158, 228, 207);
 }
 
@@ -41,16 +38,13 @@
 }
 
 .image{
-    height: 200px;
     background-color: blue;
 }
 
 .event{
-    height: 200px;
     background-color: rgb(243, 106, 225);
 }
 .footer{
     width: auto;
-    height: 200px;
     background-color: green;
 }
