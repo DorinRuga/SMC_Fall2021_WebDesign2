@@ -8,6 +8,15 @@
     display: none;
 }
 
+a:visited{
+    text-decoration: none;
+    color: #0F1B2E;
+}
+
+.active{
+    display: block;
+}
+
 @media(min-width: 768px){
     .d-md-inline-block {
         display: inline-block;

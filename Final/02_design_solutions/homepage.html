@@ -33,16 +33,24 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#">
-                <img src="#" alt="mylogo" class="nav-logo"></a>
+        <nav class="nav-bar">
+                <div>
+                    <a href="#">
+                        <img class=logo src="images/tlg_logo.png">
+                    </a>
+                </div>
                 
-                <ul class="nav-links">
+                <ul class="nav-links" id="navlist">
                     <li><a href="donate.html">Donate</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="homepage.html">Home</a></li>
                 </ul>
+                <div class="menu" id="togglemenu">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
         </nav>
     </header>
     <main>
@@ -66,6 +74,6 @@
         </div>
     </main>
 
-    <script></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -22,16 +22,40 @@
 
 .bg-tr-cabbage {
     background-color: rgba(159, 234, 69, 0.35);
+}
 
+.menu-line{
+    width: 20px;
+    height: 3px;
+    background-color: #0F1B2E;
+    margin-bottom: 4px;
+}
+
+    
 /* 
 Color palette 1
 
-Pale Cerulean 9CC7E7
-Queen Blue 4B6A97
-Oxford Blue 0F1B2E
-White ffffff
+Pale Cerulean #9CC7E7
+Queen Blue #4B6A97
+Oxford Blue #0F1B2E
+White #ffffff
 */
 
+.nav-bar{
+    background-color:#ffffff;
+}
+
+.nav-bar >*{
+    color: #0F1B2E;
+}
+
+.nav-bar a:hover{
+    color: #9CC7E7;
+}
+
+.nav-links{
+    background-color: #8EA7D1;
+}
 /*
 Color palette 2
 
@@ -52,9 +76,16 @@ Fire Opal E3655B
 yellow Orange F2A541
 */
 
-}
 /* TEXT COLOR */
 
 .txt-light {
     color: rgb(238, 238, 238);
+}
+
+/* MEDIUM SCREENS (iPad or a bit larger) */
+@media (min-width: 768px){
+
+    .nav-links{
+        background-color: #ffffff;
+    }
 }
