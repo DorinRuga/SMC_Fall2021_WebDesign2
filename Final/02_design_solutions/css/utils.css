@@ -13,6 +13,10 @@ a:visited{
     color: #0F1B2E;
 }
 
+.menu-img{
+    height: 30px;
+}
+
 .active{
     display: block;
 }
