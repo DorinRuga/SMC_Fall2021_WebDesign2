@@ -70,7 +70,17 @@
             </div>
 
             <div class="span-3">
-                
+                <section class="flex-container gallery">
+                    <a href="images/event_1.jpg" data-caption="Event 1" class="w-md-33 w-lg-25 p-1">
+                        <img src="images/event_1_sm.jpg" alt="First image">
+                    </a>
+                    <a href="images/event_2.jpg" data-caption="Event 2" class="w-md-33 w-lg-25 p-1">
+                        <img src="images/event_2_sm.jpg" alt="Second image">
+                    </a>
+                    <a href="images/event_3.jpg" data-caption="Event 3" class="w-md-33 w-lg-25 p-1">
+                        <img src="images/event_3_sm.jpg" alt="Third image">
+                    </a>
+                </section>
             </div>
 
             <div class="span-3">Footer</div>
@@ -79,6 +89,11 @@
     </main>
 
     <script src="script.js"></script>
-   
+    <script src="plugins/baguetteBox.min.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+          baguetteBox.run('.gallery');
+        });
+        </script>
 </body>
 </html>
