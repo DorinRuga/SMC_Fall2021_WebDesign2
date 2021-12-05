@@ -4,6 +4,20 @@
     font-family: 'Marcellus', serif;
 }
 
+.home-p1{
+    font-family: 'Sen', sans-serif;
+}
+
+/* MEDIUM SCREENS (iPad or a bit larger) */
+@media (min-width: 768px) {
+    
+.home-p1{
+    height: 200px;
+}
+
+
+}
+
 
 /* Sen
 font-family: 'Sen', sans-serif; */

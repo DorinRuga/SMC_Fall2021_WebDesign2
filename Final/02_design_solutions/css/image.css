@@ -3,13 +3,19 @@
     height: 200px;
 }
 
+.video-image{
+    background-size: cover;
+    height: 200px;
+}
+
+.images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+  }
 
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px) {
-
-.hero-image{
-     background-size: cover;
-     height: 400px;
-}
     
 }
