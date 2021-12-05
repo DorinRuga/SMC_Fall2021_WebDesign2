@@ -56,30 +56,68 @@ White #ffffff
 .nav-links{
     background-color: #8EA7D1;
 }
+
+.main-body{
+    background-color: #8EA7D1;
+}
 /*
 Color palette 2
 
-Pale Cerulean 9CC7E7
-Oxford Blue 0F1B2E
-Sunglow FDCA40
-Yel Or color wheel F79824
-White ffffff
+Pale Cerulean #9CC7E7
+Oxford Blue #0F1B2E
+Sunglow #FDCA40
+Yel Or color wheel #F79824
+White #ffffff
 */
+
+.nav-bar2{
+    background-color:#ffffff;
+}
+
+.nav-bar2>*{
+    color: #0F1B2E;
+}
+
+.nav-bar2 a:hover{
+    color: #FDCA40;
+}
+
+.nav-links2{
+    background-color:#F79824;
+}
+
+.main-body2{
+    background-color: #F79824;
+}
 
 /* 
 Color palette 3
 
-Pale Cerulean 9CC7E7
-White fffff
-Independence 615D6C
-Fire Opal E3655B
-yellow Orange F2A541
+Pale Cerulean #9CC7E7
+White #fffff
+Independence #615D6C
+Fire Opal #E3655B
+yellow Orange #F2A541
 */
 
-/* TEXT COLOR */
+.nav-bar3{
+    background-color:#ffffff;
+}
 
-.txt-light {
-    color: rgb(238, 238, 238);
+.nav-bar3>*{
+    color: #9CC7E7;
+}
+
+.nav-bar3 a:hover{
+    color: #E3655B;
+}
+
+.nav-links3{
+    background-color:#615D6C;
+}
+
+.main-body3{
+    background-color: #615D6C;
 }
 
 /* MEDIUM SCREENS (iPad or a bit larger) */

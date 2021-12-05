@@ -8,6 +8,24 @@
     font-family: 'Sen', sans-serif;
 }
 
+.nav-bar2{
+    font-size: 20px;
+    font-family: 'Laila', sans-serif;
+}
+
+.home-p2{
+    font-family: 'Sen', sans-serif;
+}
+
+.nav-bar3{
+    font-size: 20px;
+    font-family: 'Bellefair', serif;;
+}
+
+.home-p3{
+    font-family: 'Sen', sans-serif;
+}
+
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px) {
     
@@ -15,6 +33,13 @@
     height: 200px;
 }
 
+.home-p2{
+    height: 200px;
+}
+
+.home-p3{
+    height: 200px;
+}
 
 }
 
