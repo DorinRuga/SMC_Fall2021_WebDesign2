@@ -36,7 +36,7 @@
 .wrapper > div{
     padding: 1em;
     background-color: rgba(128, 128, 128, 0.493);
-    height: 200px;
+    /* height: 200px; */
 }
 
 /* MEDIUM SCREENS (iPad or a bit larger) */
