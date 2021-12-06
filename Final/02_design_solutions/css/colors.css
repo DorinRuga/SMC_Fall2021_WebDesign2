@@ -148,6 +148,10 @@ yellow Orange #F2A541
     color: #ffffff;
 }
 
+.home-p4{
+    color: #615D6C;
+}
+
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px){
 

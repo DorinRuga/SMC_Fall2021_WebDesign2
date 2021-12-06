@@ -1,3 +1,4 @@
+/* homepage navigation */
 
 .nav-bar{
     font-size: 20px;
@@ -8,6 +9,7 @@
     font-family: 'Sen', sans-serif;
     margin: 0px;
 }
+/* blog navigation */
 
 .nav-bar2{
     font-size: 20px;
@@ -17,6 +19,7 @@
 .home-p2{
     font-family: 'Sen', sans-serif;
 }
+/* contact navigation */
 
 .nav-bar3{
     font-size: 20px;

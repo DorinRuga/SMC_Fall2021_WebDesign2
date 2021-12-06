@@ -59,9 +59,6 @@ h1{
     text-shadow: 1px 1px 3px black;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    padding: 1.5em 0.75em;
-}
 
 @media (min-width: 768px) {
     h1 {
