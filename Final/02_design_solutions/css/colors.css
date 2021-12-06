@@ -60,13 +60,22 @@ White #ffffff
 .main-body{
     background-color: #8EA7D1;
 }
+
+.footer{
+    background-color: #4B6A97;
+    height: 200px;
+}
+
+.home-p1{
+    color: #0F1B2E;
+}
 /*
 Color palette 2
 
 Pale Cerulean #9CC7E7
 Oxford Blue #0F1B2E
 Sunglow #FDCA40
-Yel Or color wheel #F79824
+Yel Or color wheel #F99618
 White #ffffff
 */
 
@@ -83,12 +92,22 @@ White #ffffff
 }
 
 .nav-links2{
-    background-color:#F79824;
+    background-color:#F99618;
 }
 
 .main-body2{
-    background-color: #F79824;
+    background-color: #F99618;
 }
+
+.footer2{
+    background-color: #9CC7E7;
+    height: 200px;
+}
+
+.home-p2{
+    color: #ffffff;
+}
+
 
 /* 
 Color palette 3

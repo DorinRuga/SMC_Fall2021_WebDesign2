@@ -1,3 +1,13 @@
+
+.logo{
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: relative;
+    bottom: -22px;
+
+}
+
 .hero-image{
     background-size: cover;
     height: 200px;
@@ -7,6 +17,7 @@
     background-size: cover;
     height: 200px;
 }
+
 
 .images{
     width: 100%;
@@ -18,4 +29,11 @@
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px) {
     
+.logo{
+    height: 80px;
+    position: relative;
+    bottom: -26px;
+}
+
+
 }

@@ -11,11 +11,7 @@
     padding: 10px;
 }
 
-.logo{
-    height: 50px;
-    padding-top: 20px;
-    padding-left: 10px;
-}
+
 
 .menu{
     display: block;
@@ -64,14 +60,10 @@
         padding: 20px 10px;
     }
     
-    .logo{
-        height: 80px;
-    }
-
     /*grid container*/
 
     .wrapper{
-        grid-template-rows: repeat(6,1fr);
+        /* grid-template-rows: repeat(6,1fr); */
         grid-template-columns: repeat(2, 1fr);
         max-width: 768px;
         margin: auto;
@@ -105,7 +97,7 @@
     /* grid container */
 
     .wrapper{
-        grid-template-rows: repeat(6,1fr);
+        /* grid-template-rows: repeat(6,1fr); */
         grid-template-columns: repeat(2, 1fr);
         max-width: 1024px;
         margin: auto;

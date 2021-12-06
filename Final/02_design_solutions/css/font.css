@@ -6,6 +6,7 @@
 
 .home-p1{
     font-family: 'Sen', sans-serif;
+    margin: 0px;
 }
 
 .nav-bar2{
@@ -29,17 +30,7 @@
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px) {
     
-.home-p1{
-    height: 200px;
-}
 
-.home-p2{
-    height: 200px;
-}
-
-.home-p3{
-    height: 200px;
-}
 
 }
 
