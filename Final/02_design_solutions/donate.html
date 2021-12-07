@@ -54,53 +54,77 @@
         <div class="span-3 row-span-3">
             <h2>Donation Form</h2>
                 <div>
-                    <form id="donateform">
-                        <h3>Personal Information</h3>
-                        <div>
-                            <label>First name:<label>   
-                            <input name="fname">
-                        </div>
-                        <div>
-                            <label>Last name:<label>   
-                            <input name="lname">
-                        </div>
-                        <div>
-                            <label>Address:<label>   
-                            <input name="address">
-                        </div>
-                        <div>
-                            <label>City:<label>   
-                            <input name="city">
-                        </div>
-                        <div>
-                            <label>State:<label>   
-                            <input name="state">
-                        </div>
-                        <div>
-                            <label>Zip Code:<label>   
-                            <input name="zip">
-                        </div>
-                        <h3>Card Information</h3>
-                        <div>
-                            <label>Card Number:<label>   
-                            <input name="cnumber">
-                        </div>
-                        <div>
-                            <label>Expiration Date:<label>   
-                            <input name="expdate">
-                        </div>
-                        <div>
-                            <label>CVV Code:<label>   
-                            <input name="cvv">
-                        </div>
-                        <h3>How much would you like to donate?</h3>
-                        <div>
-                            <label>Amount:<label>   
-                            <input name="amount">
-                        </div> <br><br>                  
+                    <form id="donateform" action="" method="post">
+                     <!-- Personal Information    -->
+                        <h3 class="form-heading">Personal Information</h3>
+
+                            <div>
+                                <label>First name:<label>   
+                                <input name="fname">
+                            </div>
+
+                            <div>
+                                <label>Last name:<label>   
+                                <input name="lname">
+                            </div>
+
+                            <div>
+                                <label>Address:<label>   
+                                <input name="address">
+                            </div>
+
+                            <div>
+                                <label>City:<label>   
+                                <input name="city">
+                            </div>
+
+                            <div>
+                                <label>State:<label>   
+                                <input name="state">
+                            </div>
+
+                            <div>
+                                <label>Zip Code:<label>   
+                                <input name="zip">
+                            </div>
+
+                    <!-- Personal End Information    -->
+                    <!-- Card Information    --> 
+
+                        <h3 class="form-heading">Card Information</h3>
+
+                            <div>
+                                <label>Card Number:<label>   
+                                <input name="cnumber">
+                            </div>
+
+                            <div>
+                                <label>Expiration Date:<label>   
+                                <input name="expdate">
+                            </div>
+
+                            <div>
+                                <label>CVV Code:<label>   
+                                <input name="cvv">
+                            </div>
+
+                        <h3 class="form-heading">How much would you like to donate?</h3>
+
+                            <div>
+                                <label>Amount:<label>   
+                                <input name="amount">
+                            </div> 
+                            
+                            <br><br>  
+
                         <button>Submit</button>
-                    </form> 
+
+                    <!-- Card End Information    -->
+
+                    </form>
+
                     <h3 class="hide" id="thanks">Thank you for your donation today! (How about tomorrow?)</h3>
+
                 </div>
         </div>
 
