@@ -18,11 +18,14 @@
     top: 35px;
 }
 
+.blog-margin{
+    margin-top: -5px;
+}
+
 /* grid containers */
 
 .wrapper{
     display: grid;
-    gap: 1em;
     grid-auto-rows: minmax(100px, auto);
     margin: 1em;
 }
