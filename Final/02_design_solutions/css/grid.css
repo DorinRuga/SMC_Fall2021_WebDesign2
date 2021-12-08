@@ -26,7 +26,7 @@
 
 .wrapper{
     display: grid;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: auto;
     margin: 1em;
 }
 
@@ -50,7 +50,7 @@
 }
     
 .nav-links{
-    display: block;
+    display: block !important;
 }
 
 .nav-links > li{
