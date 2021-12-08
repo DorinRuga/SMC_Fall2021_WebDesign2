@@ -1,0 +1,56 @@
+
+p{
+    font-family: 'Roboto', sans-serif; 
+}
+
+h1,h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bar{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Form styling */
+
+.form-style{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.form-heading{
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	padding-bottom: 3px;
+}
+
+.form-style label{
+	display: block;
+	margin: 0px 0px 20px 0px;
+}
+
+.form-style label > span{
+	width: 100px;
+	float: left;
+	padding-right: 5px;
+}
+
+.form-style button{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	/* background: #FF8500;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA; */
+	border-radius: 3px;
+}
+
+.expdate{
+    width: 25%;
+}
+
+
+/* MEDIUM SCREENS (iPad or a bit larger) */
+@media (min-width: 768px) {
+    
+
+
+}

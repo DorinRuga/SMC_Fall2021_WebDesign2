@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- open sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="plugins/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>layout</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+                <div>
+                    <a href="#">
+                        <img class=logo src="images/Logo_new.png">
+                    </a>
+                </div>
+                
+                <ul class="nav-links" id="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                </ul>
+                <div class="menu">
+                    <img class="menu-img" src="images/menu_open.png" id="menubutton"  alt="menu_open">
+                </div>
+        </nav>
+    </header>
+    <main class="main-body">
+        
+        <div class="wrapper">
+
+            <div class="span-3"><img src="images/poz-head19.jpeg" alt="homepagehero" class="images"></div>
+
+            <div class="span-3"><img src="images/hero_video.png" alt="heroVideo"  class="images"></div>
+
+            <div class="span-3">
+            
+                <h2>Welcome Friends</h2>
+                
+                <p>In Los Angeles, there are over 60,000 people living with HIV or AIDS. Despite medical advances and the promising new drug treatment options that are extending the lives of many persons impacted by HIV/AIDS, the AIDS epidemic is not over.</p>
+                    
+                <p>New issues and challenges have arisen for people living with HIV/AIDS. Issues of drug treatment failure (when the medication stops working), joining a clinical trial, disclosing an HIV diagnosis, HIV employment and housing discrimination, and coping with side effects are just some of the challenges facing persons living with HIV/AIDS today. In addition, under-served and difficult to reach populations such as women, minorities and persons living in alcohol and addiction recovery institutions pose unique challenges in dealing with HIV/AIDS. </p></div>
+
+            <div class=""><img src="images/support-group-head.jpeg" alt="supportGroup" class="images support-image"></div>
+
+            <div class="">
+
+                <h3>POZ Life Weekend Seminar</h3>
+                
+                <p>This is an educational series of workshops that deal with living effectively with HIV/AIDS. The seminar is designed for individuals whom are newly infected, long term survivors, (living with HIV ten years or more), significant others and HIV healthcare providers. Topics include but are not limited to: HIV Drug Treatment Options, Insurance and Public Benefits, Stress Management, Alternative and Complementary Therapies, Gynecological Manifestations of HIV, (for women) Nutrition, Medication Adherence, Recreational Drug Use, Clinical Trials, Relationships, Goal Setting, Managing Side Effects and HIV Disclosure.</p>
+            
+            </div>
+
+            <div class="span-3">
+                <section class="flex-container gallery">
+                    <a href="images/event_1.jpg" data-caption="Event 1" class="w-md-33 w-lg-25 p-1">
+                        <img src="images/event_1_sm.jpg" alt="First image">
+                    </a>
+                    <a href="images/event_2.jpg" data-caption="Event 2" class="w-md-33 w-lg-25 p-1">
+                        <img src="images/event_2_sm.jpg" alt="Second image">
+                    </a>
+                    <a href="images/event_3.jpg" data-caption="Event 3" class="w-md-33 w-lg-25 p-1">
+                        <img src="images/event_3_sm.jpg" alt="Third image">
+                    </a>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <script src="script.js"></script>
+    <script src="plugins/baguetteBox.min.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+          baguetteBox.run('.gallery');
+        });
+        </script>
+</body>
+</html>
