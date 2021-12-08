@@ -1,9 +1,13 @@
-/* COLORS 
 
-White #fffff
-Independence #615D6C
-Fire Opal #E3655B
-yellow Orange #F2A541
+/* Design Solution 1 Homepage*/
+
+/* 
+Color palette 1
+
+Pale Cerulean #9CC7E7
+Queen Blue #4B6A97
+Oxford Blue #0F1B2E
+White #ffffff
 */
 
 .nav-bar{
@@ -15,19 +19,19 @@ yellow Orange #F2A541
 }
 
 .nav-bar a:hover{
-    color: #E3655B;
-}
-
-.nav-links{
-    background-color: #E3655B;
+    color: #9CC7E7;
 }
 
 .main-body{
-    background-color: #615D6C;
+    background-color: #9CC7E7;
+}
+
+.nav-links{
+    background-color: #4B6A97;
 }
 
 .footer{
-    background-color: #E3655B;
+    background-color: #4B6A97;
     height: 200px;
 }
 
@@ -35,9 +39,88 @@ yellow Orange #F2A541
     color: #0F1B2E;
 }
 
+/* Design Solution 2 Blog*/
 
+/*
+Color palette 2
 
+Pale Cerulean #9CC7E7
+Oxford Blue #0F1B2E
+Sunglow #FDCA40
+Yel Or color wheel #F99618
+White #ffffff
+*/
 
+.nav-bar2{
+    background-color:#ffffff;
+}
+
+.nav-bar2 >*{
+    color: #ffffff;
+}
+
+.nav-bar2 a:hover{
+    color: #F99618;
+}
+
+.main-body2{
+    background-color: #F99618;
+}
+
+.nav-links2{
+    background-color: #9CC7E7;
+    text-align: center;
+}
+
+.nav-links2 > li{
+    padding: 10px;
+}
+
+.footer2{
+    background-color: #9CC7E7;
+    height: 200px;
+}
+/* Design Solution 3 Contact*/
+
+/* 
+Color palette 3
+
+Pale Cerulean #9CC7E7
+White #fffff
+Independence #615D6C
+Fire Opal #E3655B
+yellow Orange #F2A541
+*/
+
+.nav-bar3{
+    background-color:#ffffff;
+}
+
+.nav-bar3 >*{
+    color: #ffffff;
+}
+
+.nav-bar3 a:hover{
+    color: #615D6C;
+}
+
+.main-body3{
+    background-color: #615D6C;
+}
+
+.nav-links3{
+    background-color: #E3655B;
+    text-align: center;
+}
+
+.nav-links3 > li{
+    padding: 10px;
+}
+
+.footer3{
+    background-color: #E3655B;
+    height: 200px;
+}
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px){
 

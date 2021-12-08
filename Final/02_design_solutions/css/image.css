@@ -1,10 +1,10 @@
 
 .logo{
-    height: 30px;
+    height: 40px;
     padding-top: 20px;
     padding-left: 20px;
     position: relative;
-    bottom: -15px;
+    bottom: -22px;
 
 }
 
@@ -40,8 +40,8 @@ img {
 @media (min-width: 768px) {
     
 .logo{
-    height: 50px;
-    bottom: 0px;
+    height: 80px;
+    bottom: -26px;
 }
 
 
