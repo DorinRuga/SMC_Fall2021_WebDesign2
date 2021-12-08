@@ -5,25 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Sen -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
-
-    <!-- Marcellus -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
-
-    <!-- Laila -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Bellefair -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+     <!-- Roboto -->
+     <link rel="preconnect" href="https://fonts.googleapis.com"> 
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+ 
+     <!-- open sans -->
+     <link rel="preconnect" href="https://fonts.googleapis.com"> 
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
     
@@ -34,7 +24,7 @@
         <nav class="nav-bar">
                 <div>
                     <a href="#">
-                        <img class=logo src="images/tlg_logo.png">
+                        <img class=logo src="images/Logo_new.png">
                     </a>
                 </div>
                 
@@ -49,104 +39,97 @@
                 </div>
         </nav>
     </header>
-    <main class="wrapper">
+    <main class="main-body">
+        <div class="wrapper">
        
-        <div class="span-3 row-span-3 form-style">
-            <h2>Donation Form</h2>
-                <div>
-                    <form id="donateform" action="" method="post">
+            <div class="span-3 row-span-3 form-style">
+                <h2>Donation Form</h2>
+                    <div>
+                        <form id="donateform" action="" method="post">
 
-                     <!-- Personal Information    -->
-                     
-                        <h3 class="form-heading column-1">Personal Information</h3>
+                        <!-- Personal Information    -->
+                        
+                            <h3 class="form-heading column-1">Personal Information</h3>
 
-                            <div>
-                                <label for="fname"><span>First name:</span><label>   
-                                <input type="text" class="input-field" name="fname">
-                            </div>
+                                <div>
+                                    <label for="fname"><span>First name:</span><label>   
+                                    <input type="text" class="input-field" name="fname">
+                                </div>
 
-                            <div>
-                                <label for="lname"><span>Last name:</span><label>   
-                                <input type="text" class="input-field" name="lname">
-                            </div>
+                                <div>
+                                    <label for="lname"><span>Last name:</span><label>   
+                                    <input type="text" class="input-field" name="lname">
+                                </div>
 
-                            <div>
-                                <label for="address"><span>Address:</span><label>   
-                                <input type="text" class="input-field" name="address">
-                            </div>
+                                <div>
+                                    <label for="address"><span>Address:</span><label>   
+                                    <input type="text" class="input-field" name="address">
+                                </div>
 
-                            <div>
-                                <label for="city"><span>City:</span><label>   
-                                    <input type="text" class="input-field" name="city">
-                            </div>
+                                <div>
+                                    <label for="city"><span>City:</span><label>   
+                                        <input type="text" class="input-field" name="city">
+                                </div>
 
-                            <div>
-                                <label for="state"><span>State:</span><label>   
-                                <input type="text" class="input-field" name="state">
-                            </div>
+                                <div>
+                                    <label for="state"><span>State:</span><label>   
+                                    <input type="text" class="input-field" name="state">
+                                </div>
 
-                            <div>
-                                <label for="zip"><span>Zip Code:</span><label>   
-                                <input type="number" class="input-field" name="zip">
-                            </div>
+                                <div>
+                                    <label for="zip"><span>Zip Code:</span><label>   
+                                    <input type="number" class="input-field" name="zip">
+                                </div>
 
-                    <!-- Personal End Information    -->
-                    <!-- Card Information    --> 
+                        <!-- Personal End Information    -->
+                        <!-- Card Information    --> 
 
-                        <h3 class="form-heading column-2">Card Information</h3>
+                            <h3 class="form-heading column-2">Card Information</h3>
 
-                            <div>
-                                <label for="cnumber"><span>Card Number:</span><label>   
-                                <input type="number" class="input-field" name="cnumber">
-                            </div>
+                                <div>
+                                    <label for="cnumber"><span>Card Number:</span><label>   
+                                    <input type="number" class="input-field" name="cnumber">
+                                </div>
 
-                            <div>
-                                <label for="expdate"><span>Expiration Date:</span><label>   
-                                <input type="date" class="input-field expdate" name="expdate">
-                            </div>
+                                <div>
+                                    <label for="expdate"><span>Expiration Date:</span><label>   
+                                    <input type="date" class="input-field expdate" name="expdate">
+                                </div>
 
-                            <div>
-                                <label for="cvv"><span>CVV Code:</span><label>   
-                                <input type="number" class="input-field" name="cvv">
-                            </div>
+                                <div>
+                                    <label for="cvv"><span>CVV Code:</span><label>   
+                                    <input type="number" class="input-field" name="cvv">
+                                </div>
 
-                        <h3 class="form-heading">How much would you like to donate?</h3>
+                            <h3 class="form-heading">How much would you like to donate?</h3>
 
-                            <div>
-                                <label for="amount"><span>Amount:</span><label>   
-                                <input type="number" class="input-field" name="amount">
-                            </div>
+                                <div>
+                                    <label for="amount"><span>Amount:</span><label>   
+                                    <input type="number" class="input-field" name="amount">
+                                </div>
 
-                            <div>
-                                <label for="message"><span>Message:</span></label>
-                                <input type="text" class="message-field" name="message">
-                            </div>
-                            
-                            <br><br>  
+                                <div>
+                                    <label for="message"><span>Message:</span></label>
+                                    <input type="text" class="message-field" name="message">
+                                </div>
+                                
+                                <br><br>  
 
-                        <button>Submit</button>
+                            <button>Submit</button>
 
-                    <!-- Card End Information    -->
+                        <!-- Card End Information    -->
 
-                    </form>
+                        </form>
 
-                    <div class="hide" id="thanks"><h1>Thank you for your donation today!</h1><h2>(How about tomorrow?)</h2><img src="images/hannah-busing-Zyx1bK9mqmA-unsplash.jpg" alt="handholding"  class="images"></div>
+                        <div class="hide" id="thanks"><h1>Thank you for your donation today!</h1><h2>(How about tomorrow?)</h2><img src="images/hannah-busing-Zyx1bK9mqmA-unsplash.jpg" alt="handholding"  class="images"></div>
 
-                </div>
+                    </div>
+            </div>
+            
+           
         </div>
-
-        <div class="span-3">Large Testimonial</div>
-
-        <div class="">Small Testimonial</div>
-
-        <div class="">Small Testimonial</div>
-
-        <div class="">Small Testimonial</div>
-
-        <div class="">Small Testimonial</div>
-        
-        <div class="span-3">Footer</div>
     </main>
+    <footer class="footer"></footer>
     
     <script src="script.js"></script>
 </body>

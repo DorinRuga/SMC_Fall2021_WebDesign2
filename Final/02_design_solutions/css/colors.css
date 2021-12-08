@@ -1,43 +1,9 @@
-/* COLORS */
+/* COLORS 
 
-.bg-blue {
-    background-color: rgb(64, 155, 240);
-}
-
-.bg-purple {
-    background-color: rgb(198, 95, 246);
-}
-
-.bg-green {
-    background-color: rgb(54, 226, 169);
-}
-
-.bg-scarlet {
-    background-color: rgb(241, 60, 90);
-}
-
-.bg-smoke {
-    background-color: rgba(139, 139, 139, 0.68);
-}
-
-.bg-tr-cabbage {
-    background-color: rgba(159, 234, 69, 0.35);
-}
-
-.menu-line{
-    width: 20px;
-    height: 3px;
-    background-color: #0F1B2E;
-    margin-bottom: 4px;
-}
-    
-/* 
-Color palette 1
-
-Pale Cerulean #9CC7E7
-Queen Blue #4B6A97
-Oxford Blue #0F1B2E
-White #ffffff
+White #fffff
+Independence #615D6C
+Fire Opal #E3655B
+yellow Orange #F2A541
 */
 
 .nav-bar{
@@ -45,112 +11,32 @@ White #ffffff
 }
 
 .nav-bar >*{
-    color: #0F1B2E;
+    color: #ffffff;
 }
 
 .nav-bar a:hover{
-    color: #9CC7E7;
+    color: #E3655B;
 }
 
 .nav-links{
-    background-color: #8EA7D1;
+    background-color: #E3655B;
 }
 
 .main-body{
-    background-color: #8EA7D1;
+    background-color: #615D6C;
 }
 
 .footer{
-    background-color: #4B6A97;
+    background-color: #E3655B;
     height: 200px;
 }
 
 .home-p1{
     color: #0F1B2E;
 }
-/*
-Color palette 2
-
-Pale Cerulean #9CC7E7
-Oxford Blue #0F1B2E
-Sunglow #FDCA40
-Yel Or color wheel #F99618
-White #ffffff
-*/
-
-.nav-bar2{
-    background-color:#ffffff;
-}
-
-.nav-bar2>*{
-    color: #0F1B2E;
-}
-
-.nav-bar2 a:hover{
-    color: #FDCA40;
-}
-
-.nav-links2{
-    background-color:#F99618;
-}
-
-.main-body2{
-    background-color: #F99618;
-}
-
-.footer2{
-    background-color: #9CC7E7;
-    height: 200px;
-}
-
-.home-p2{
-    color: #ffffff;
-}
 
 
 
-/* 
-Color palette 3
-
-Pale Cerulean #9CC7E7
-White #fffff
-Independence #615D6C
-Fire Opal #E3655B
-yellow Orange #F2A541
-*/
-
-.nav-bar3{
-    background-color:#ffffff;
-}
-
-.nav-bar3>*{
-    color: #9CC7E7;
-}
-
-.nav-bar3 a:hover{
-    color: #E3655B;
-}
-
-.nav-links3{
-    background-color:#615D6C;
-}
-
-.main-body3{
-    background-color: #615D6C;
-}
-
-.footer3{
-    background-color: #E3655B;
-    height: 200px;
-}
-
-.home-p3{
-    color: #ffffff;
-}
-
-.home-p4{
-    color: #615D6C;
-}
 
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px){

@@ -1,58 +1,20 @@
-/* Sen
-font-family: 'Sen', sans-serif; */
 
-/* Laila
-font-family: 'Laila', sans-serif; */
+p{
+    font-family: 'Roboto', sans-serif; 
+}
 
-/* Marcellus
-font-family: 'Marcellus', serif; */
-
-/* Bellefair
-font-family: 'Bellefair', serif; */
-
-/* Playfair
-font-family: 'Playfair Display', serif; */
-
-/* Rasa
-font-family: 'Rasa', serif; */
-
-/* homepage */
+h1,h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
 
 .nav-bar{
     font-size: 20px;
-    font-family: 'Marcellus', serif;
+    font-family: 'Open Sans', sans-serif;
 }
-
-.home-p1{
-    font-family: 'Sen', sans-serif;
-    margin: 0px;
-}
-/* blog */
-
-.nav-bar2{
-    font-size: 20px;
-    font-family: 'Laila', sans-serif;
-}
-
-.home-p2{
-    font-family: 'Playfair Display', serif;
-}
-/* contact */
-
-.nav-bar3{
-    font-size: 20px;
-    font-family: 'Bellefair', serif;
-}
-
-.home-p3{
-    font-family: 'Rasa', serif;
-}
-
 /* Form styling */
 
 .form-style{
-    font-family: 'Rasa', serif;
-    background-color: #8EA7D1;
+    font-family: 'Roboto', sans-serif; 
 }
 
 .form-heading{
@@ -84,6 +46,7 @@ font-family: 'Rasa', serif; */
 .expdate{
     width: 25%;
 }
+
 
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px) {
