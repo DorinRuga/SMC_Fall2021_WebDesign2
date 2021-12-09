@@ -1,9 +1,9 @@
-
+let p = document.getElementById("p")
 let menbttn = document.getElementById("menubutton")
 let nav = document.getElementById("navigation");
 let toggleDisplay = function(element){
   element.classList.toggle("hide");}
-
+ 
 let toggleImage = function(){
   if (nav.style.display === "block") {
     nav.style.display = "none";
@@ -19,6 +19,12 @@ let toggleImage = function(){
         menbttn.alt = "menu_open";
      }
     
+}
+
+function func(image){
+  p.src = image.src;
+  p.parentElement.style.display="block";
+  p.nextElementSibling.textContent=image.alt;
 }
 
 document.getElementById("readmore1")?.addEventListener("click", function(){

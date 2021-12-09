@@ -71,6 +71,14 @@
     grid-row: 1/3;
 }
 
+.column-1{
+    grid-row: 1/2;
+}
+
+.column-2{
+    grid-row: 2/3;
+}
+
 /* flex containers */
 
 .flex-container > [class^=w-md]:first-child > .segment {

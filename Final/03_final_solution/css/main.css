@@ -4,14 +4,3 @@
 @import url('utils.css');
 @import url('font.css');
 @import url('image.css');
-
-
-.gallery img {
-    width: 100%;
-}
-
-@media (min-width: 768px) {
-    .gallery img {
-        width: initial;
-    }
-}
