@@ -39,7 +39,7 @@
     height: 75px;
     object-fit: cover;
     object-position: center;
-    margin: 20px;
+    margin: 0px;
 }
 
 #p{
@@ -67,7 +67,7 @@
     height: 150px;
     object-fit: cover;
     object-position: center;
-    margin: 40px;
+    margin: 25px;
 }
 
 }

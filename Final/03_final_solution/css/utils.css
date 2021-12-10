@@ -48,6 +48,10 @@ a:visited{
     padding: 24px;
 }
 
+.p-3{
+    padding-left: 14px;
+}
+
 /* TYPOGRAPHY */
 .text-center {
     text-align: center;
