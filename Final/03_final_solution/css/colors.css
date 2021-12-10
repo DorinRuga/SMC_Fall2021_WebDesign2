@@ -35,7 +35,9 @@ yellow Orange #F2A541
     color: #0F1B2E;
 }
 
-
+.bg-white{
+    background-color: white;
+}
 
 
 /* MEDIUM SCREENS (iPad or a bit larger) */

@@ -23,6 +23,10 @@ a:visited{
 
 .hide { display: none; 
 }
+
+.mb-60{
+    margin-bottom: 60px;
+}
 @media(min-width: 768px){
     .d-md-inline-block {
         display: inline-block;
