@@ -36,6 +36,11 @@ yellow Orange #F2A541
     color: #0F1B2E;
 }
 
+hr{
+    border: 1px solid white;
+    max-width: 310px;
+}
+
 .bg-white{
     background-color: white;
 }
@@ -58,4 +63,20 @@ yellow Orange #F2A541
     .nav-links{
         background-color: #ffffff;
     }
+
+    hr{
+        border: 1px solid white;
+        max-width: 728px;
+    }
+}
+
+/* MEDIUM SCREENS (iPad or a bit larger) */
+@media (min-width: 1024px) {
+
+    hr{
+        border: 1px solid white;
+        max-width: 984px;
+    }
+
+
 }

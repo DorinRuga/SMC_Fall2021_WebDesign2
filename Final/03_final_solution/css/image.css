@@ -40,7 +40,7 @@
     height: 75px;
     object-fit: cover;
     object-position: center;
-    margin: 0px;
+    margin: 15px;
 }
 
 #p{
@@ -48,12 +48,15 @@
     height: 300px;
     object-fit: contain;
     object-position: center;
-    background-color: white;
+    background-color: #615D6C;
+    margin: 25px 0 25px 0;
 }
 #p + p{
     text-align: center;
-    background-color: white;
+    background-color: #615D6C;
     margin-top: 0;
+    color: white;
+    font-size: 30px;
 }
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px) {
