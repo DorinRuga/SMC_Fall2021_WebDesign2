@@ -1,6 +1,7 @@
 
 p{
     font-family: 'Roboto', sans-serif; 
+	padding: 5px;
 }
 
 h1,h2, h3, h4, h5, h6{
@@ -86,6 +87,11 @@ blockquote{
     width: 25%;
 }
 
+.l-position{
+	position: relative;
+	bottom: 88px;
+}
+
 
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px) {
@@ -131,6 +137,7 @@ blockquote{
 	  position: relative;
 	  bottom: -50px;
   }
+
 
 }
 
@@ -181,4 +188,5 @@ blockquote{
 		position: relative;
 		bottom: -85px;
 	}	
+
 }

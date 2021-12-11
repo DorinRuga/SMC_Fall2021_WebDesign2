@@ -27,6 +27,10 @@ a:visited{
 .mb-60{
     margin-bottom: 60px;
 }
+
+.ptop-30{
+    padding-top: 30px;
+}
 @media(min-width: 768px){
     .d-md-inline-block {
         display: inline-block;
@@ -73,6 +77,10 @@ h1{
 @media (min-width: 768px) {
     h1 {
         font-size: 6vw;
+    }
+
+    .p-3{
+        padding-left: 40px;
     }
 }
 
