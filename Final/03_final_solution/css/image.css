@@ -32,6 +32,7 @@
 }
 .gallery{
     text-align: center;
+    height: 150px;
 }
 
 .gallery img{
@@ -61,7 +62,9 @@
     height: 50px;
     bottom: 0px;
 }
-
+.gallery{
+    height: 300px;
+}
 .gallery img{
     width: 100px;
     height: 150px;

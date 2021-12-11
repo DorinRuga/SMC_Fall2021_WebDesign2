@@ -53,7 +53,7 @@ a:visited{
 }
 
 .p-3{
-    padding-left: 14px;
+    padding-left: 25px;
 }
 
 /* TYPOGRAPHY */
@@ -80,4 +80,9 @@ h1{
     h1 {
         font-size: 3rem;
     }
+
+    .p-3{
+        padding-left: 225px;
+    }
+
 }

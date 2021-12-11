@@ -16,7 +16,7 @@ h1,h2, h3, h4, h5, h6{
 
 blockquote{
 	font-size: 12px;
-	width:68%;
+	width:60%;
 	margin:50px auto;
 	font-family:Open Sans;
 	font-style:italic;
@@ -73,13 +73,13 @@ blockquote{
 	padding-right: 5px;
 }
 
-.form-style button{
+.button{
 	border: none;
 	padding: 8px 15px 8px 15px;
-	/* background: #FF8500;
+	background: #E3655B;
 	color: #fff;
-	box-shadow: 1px 1px 4px #DADADA; */
 	border-radius: 3px;
+	float: right;
 }
 
 .expdate{
@@ -93,8 +93,7 @@ blockquote{
 /* blockquote styling */
 
 blockquote{
-	font-size: 15px;
-	width:126%;
+	font-size: 20px;
 	margin:50px auto;
 	font-family:Open Sans;
 	font-style:italic;
@@ -104,7 +103,6 @@ blockquote{
 	line-height:1.6;
 	position: relative;
 	background: #ffffff;
-	right: 200px;
   }
   
   blockquote::before{
@@ -129,14 +127,23 @@ blockquote{
 	margin-top:1em;
   }
 
+  .button{
+	  position: relative;
+	  bottom: -50px;
+  }
+
 }
 
 /* * LARGE SCREENS (Desktop and larger) */
 @media (min-width: 1024px) {
 
-	blockquote{
+	.f-20{
 		font-size: 20px;
-		width:100%;
+	}
+
+	blockquote{
+		font-size: 25px;
+		width: 60%;
 		margin:50px auto;
 		font-family:Open Sans;
 		font-style:italic;
@@ -169,4 +176,9 @@ blockquote{
 		font-weight: bold;
 		margin-top:1em;
 	  }
+
+	.button{
+		position: relative;
+		bottom: -85px;
+	}	
 }

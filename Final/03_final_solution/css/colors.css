@@ -24,6 +24,7 @@ yellow Orange #F2A541
 
 .main-body{
     background-color: #615D6C;
+    padding-bottom: 20px;
 }
 
 .footer{
@@ -39,6 +40,17 @@ yellow Orange #F2A541
     background-color: white;
 }
 
+.bg-d-purple{
+    background-color: #615D6C ;
+}
+
+.f-white{
+    color: #ffffff;
+}
+
+.f-red{
+    color: #e3655b;
+}
 
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px){

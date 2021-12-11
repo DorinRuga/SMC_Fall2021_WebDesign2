@@ -23,7 +23,7 @@
 .wrapper{
     display: grid;
     grid-auto-rows: auto;
-    margin: 1em;
+    margin: 1em 1em 0em 1em;
 }
 
 .wrapper > div{
@@ -106,7 +106,7 @@
     /* flex containers */
     .flex-container {
         width: 1024px;
-        margin: 0px auto 20px;
+        margin: 0px auto 0px;
     }
 
     .w-lg-25 {
