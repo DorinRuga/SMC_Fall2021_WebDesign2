@@ -58,12 +58,17 @@
     color: white;
     font-size: 30px;
 }
+
+.m-none{
+    margin: none !important;
+}
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px) {
     
 .logo{
     height: 50px;
     bottom: 0px;
+    padding-left: 0px;
 }
 .gallery{
     height: 300px;

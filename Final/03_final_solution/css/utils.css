@@ -57,7 +57,12 @@ a:visited{
 }
 
 .p-3{
-    padding-left: 25px;
+    padding-left: 20px;
+}
+
+#thanks{
+    margin: 1em 1em 0em 1em;
+    color: white;
 }
 
 /* TYPOGRAPHY */
@@ -73,6 +78,10 @@ h1{
     text-shadow: 1px 1px 3px black;
 }
 
+.p-4{
+    padding-left: 40px;
+}
+
 
 @media (min-width: 768px) {
     h1 {
@@ -80,6 +89,14 @@ h1{
     }
 
     .p-3{
+        padding-left: 40px;
+    }
+
+    #thanks{
+        padding: 0px 20px 0px 20px;
+    }
+
+    .p-4{
         padding-left: 40px;
     }
 }
@@ -90,7 +107,15 @@ h1{
     }
 
     .p-3{
-        padding-left: 225px;
+        padding-left: 200px;
+    }
+
+    .p-4{
+        padding-left: 226px;
+    }
+
+    #thanks{
+        padding: 0px 185px 0px 185px;
     }
 
 }

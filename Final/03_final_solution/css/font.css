@@ -13,6 +13,7 @@ h1,h2, h3, h4, h5, h6{
     font-family: 'Open Sans', sans-serif;
 }
 
+
 /* blockquote styling */
 
 blockquote{
@@ -53,6 +54,31 @@ blockquote{
 
 /* Form styling */
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  width: 200px;
+}
+
+input[type=text]{
+	width: 300px;
+}
+
+input[type=date]{
+	width: 200px;
+}
+
+.message-field{
+	height: 100px;
+}
+
 .form-style{
     font-family: 'Roboto', sans-serif; 
 }
@@ -83,6 +109,7 @@ blockquote{
 	float: right;
 }
 
+
 .expdate{
     width: 25%;
 }
@@ -92,6 +119,11 @@ blockquote{
 	bottom: 88px;
 }
 
+.label-amount{
+	display: flex;
+	flex-wrap: wrap;
+	padding-right: 35px;
+}
 
 /* MEDIUM SCREENS (iPad or a bit larger) */
 @media (min-width: 768px) {
@@ -133,10 +165,19 @@ blockquote{
 	margin-top:1em;
   }
 
-  .button{
+  .b-position{
 	  position: relative;
 	  bottom: -50px;
   }
+
+  input[type=number] {
+	-moz-appearance: textfield;
+	width: 240px;
+  }
+
+  input[type=date]{
+	width: 240px;
+}
 
 
 }
@@ -184,7 +225,7 @@ blockquote{
 		margin-top:1em;
 	  }
 
-	.button{
+	.b-position{
 		position: relative;
 		bottom: -85px;
 	}	
